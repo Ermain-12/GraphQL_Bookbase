@@ -1,0 +1,17 @@
+{
+  "name": "customer_base",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "3.2.6",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "jade": "*",
+    "json-server": "^0.12.1"
+  }
+}
